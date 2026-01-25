@@ -1,1 +1,38 @@
+root Layout{
+    logic { 
+        <?php
+
+
+        
+    ?>
+     }
+
+    template(children) {
+        <html>
+        <head>
+        <link rel="stylesheet" href="/style.css" />
+    <script src="/main.js"></script>
+        </head>
+            <body>
+                <div id="progress-bar" style="
+    position: fixed; top: 0; left: 0;
+    height: 3px; background: rgba(226, 72, 24, 1);
+    width: 0%; transition: width 0.2s;"></div>
+
+<header>
+   <a href="/" data-link> <h2>Header</h2></a>
+</header>
+<hr>
+
+
+                {children}
+                <hr>
+<footer>
+    <p>Footer Loaded</p>
+</footer>
+
+            </body>
+        </html>
+    }
+}
 
