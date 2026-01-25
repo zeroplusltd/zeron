@@ -1,1 +1,18 @@
+page Home {
 
+    
+
+    logic {
+       
+       <?php 
+       function getPageMeta(){
+        return json_encode(["title"=> "Home Page", "description"=> "Home description"]);
+       }
+       ?> 
+     
+    }
+
+    template {
+        <h1>Welcome to Home</h1>    
+    }
+}
