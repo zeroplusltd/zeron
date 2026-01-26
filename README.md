@@ -1,8 +1,10 @@
-## Core Author
+## Core Architecture & Implementation
 
-- **Tarikul Islam (Turjo)**  
-  Core Framework Architect  
-  GitHub: https://github.com/tarikul-islam-turjo
+The core system architecture and primary framework implementation
+were designed and developed by **Tarikul Islam (Turjo)**.
+
+GitHub: https://github.com/tarikul-islam-turjo
+
 
 ## Documentation
 - [Zeron CLI](zeron-cli/README.md)
