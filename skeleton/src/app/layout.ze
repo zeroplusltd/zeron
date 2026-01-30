@@ -10,8 +10,8 @@ root Layout{
     template(children) {
         <html>
         <head>
-        <link rel="stylesheet" href="/assets/style.css" />
-    <script src="/assets/main.js"></script>
+            <link rel="stylesheet" href="/assets/globals.css" />
+            <script src="/assets/runtime.js"></script>
         </head>
             <body>
                 <div id="progress-bar" style="
